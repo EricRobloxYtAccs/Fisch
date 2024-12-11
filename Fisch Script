@@ -85,9 +85,9 @@ if _G.StreamerMode then
         for i=1,#a_protect do
             if a_protect[i].ClassName == "TextLabel" then
                 if a_protect[i].Text == n_protect then
-                    a_protect[i].Text = "Protect By Alchemy"
+                    a_protect[i].Text = "Protect By YZE"
                 elseif a_protect[i].Text == "@"..f_protect then
-                    a_protect[i].Text = "@Protect By Alchemy"
+                    a_protect[i].Text = "@Protect By YZE"
                 end
             end
         end
@@ -112,16 +112,16 @@ Notification.new({
 		{
 			Title = "Sure!",
 			Callback = function()
-				print('discord.gg/alchemyhub')
+				print('discord.gg/65U2ZfXWkQ')
                 if setclipboard then
-                    setclipboard("Dont for get to join > https://discord.gg/alchemyhub")
+                    setclipboard("Dont for get to join > discord.gg/65U2ZfXWkQ")
                 end
 			end,
 		},
 		{
 			Title = "No Thanks",
 			Callback = function()
-				print('discord.gg/alchemyhub')
+				print('discord.gg/65U2ZfXWkQ')
 			end,
 		}
 	}
